@@ -159,6 +159,8 @@ public:
 
         //- Read dynamicMeshDict dictionary
         virtual bool read();
+
+        virtual void setMotion( const Field<vectorField> & m );
 };
 
 

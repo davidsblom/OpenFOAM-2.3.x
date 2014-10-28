@@ -204,5 +204,10 @@ bool Foam::motionSolver::read()
     }
 }
 
+void Foam::motionSolver::setMotion( const Field<vectorField> & m )
+{
+
+}
+
 
 // ************************************************************************* //
