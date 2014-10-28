@@ -86,6 +86,8 @@ public:
 
         //- Update the mesh for both mesh motion and topology change
         virtual bool update();
+
+        virtual void setMotion( const Field<vectorField> & m );
 };
 
 

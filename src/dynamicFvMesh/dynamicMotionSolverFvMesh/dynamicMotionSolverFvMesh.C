@@ -73,5 +73,10 @@ bool Foam::dynamicMotionSolverFvMesh::update()
     return true;
 }
 
+void Foam::dynamicMotionSolverFvMesh::setMotion( const Field<vectorField> & m )
+{
+  motionPtr_->setMotion( m );
+}
+
 
 // ************************************************************************* //

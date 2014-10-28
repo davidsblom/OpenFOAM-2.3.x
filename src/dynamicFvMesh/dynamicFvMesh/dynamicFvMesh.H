@@ -123,6 +123,8 @@ public:
 
         //- Update the mesh for both mesh motion and topology change
         virtual bool update() = 0;
+
+        virtual void setMotion( const Field<vectorField> & m ){}
 };
 
 
